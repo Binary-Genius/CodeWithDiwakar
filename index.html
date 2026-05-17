@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="CodeWithDiwakar's Full-Stack Development Portfolio featuring modern web projects, frontend & backend development, and creative tech solutions.">
+
+    <meta name="keywords" content="CodeWithDiwakar, Full Stack Developer, Web Developer, React Developer, Node.js, Portfolio, Frontend Developer, Backend Developer, JavaScript, Python, Web Design">
+
+    <meta name="author" content="CodeWithDiwakar">
+
+    <meta name="robots" content="index, follow">
+
+    <meta name="google-site-verification" content="Yy1k-zWU5Ck6weCZaj-s4yGIKRO68gF2DmHxGiDaplQ">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="CodeWithDiwakar - Full Stack Developer">
+
+    <meta property="og:description" content="Welcome to CodeWithDiwakar's official portfolio website. Explore projects, skills, and modern web development work.">
+
+    <meta property="og:image" content="https://i.ibb.co/ZWB87k2/Screenshot-20240131-134106.png">
+
+    <meta property="og:url" content="https://diwakartech.com">
+
+    <meta property="og:site_name" content="CodeWithDiwakar">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:title" content="CodeWithDiwakar - Full Stack Developer">
+
+    <meta name="twitter:description" content="Explore Diwakar's portfolio, projects, and modern web development skills.">
+
+    <meta name="twitter:image" content="https://i.ibb.co/ZWB87k2/Screenshot-20240131-134106.png">
+
+    <!-- Website Title -->
+    <title>CodeWithDiwakar | Full Stack Developer Portfolio</title>
+
+</head>
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Cursor Glow Element (JS will position this) -->
+    <div id="cursor-glow"></div>
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <i class="fas fa-moon" id="theme-toggle"></i>
+                <div class="hamburger" id="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <!-- Animation class 'animate-me' added to main content divs -->
+        <div class="hero-left animate-me">
+            <h2>Namaste, I am</h2>
+            <!-- H1 Tag: Main title for SEO -->
+            <h1>Diwakar Tiwari</h1>
+            <!-- Animated text container -->
+            <h2><span id="animated-text"></span></h2>
+            <p>
+            I am a Full-Stack Developer passionate about building modern, high-performance web applications. 
+            I create real-world solutions using JavaScript and Python, with a focus on clean design, scalability, and security.
+            </p>
+            <div style="margin-top: 2rem;">
+                <a href="#portfolio" class="overlay-link-btn" style="background: var(--hero-h1-color); color: white; margin-right: 1rem;">View Work <i class="fas fa-arrow-right"></i></a>
+                <a href="mailto:diwakartiwari.up43@gmail.com" class="overlay-link-btn">Hire Me <i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <!-- Animation class 'animate-me' added to main content divs -->
+        <div class="hero-right animate-me">
+            <!-- Image container where 3D tilt is applied -->
+            <div class="image-container special-glass-card" id="tilt-card">
+                <!-- Placeholder Image (SEO: alt text added) -->
+                <img src="https://i.ibb.co/fGt44yKm/05.webp" alt="Diwakar Tiwari Full-Stack Developer Profile">
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2 class="animate-me">My Core Skills</h2>
+        <div class="skills-grid" id="skills-grid">
+
+            <!-- Skill Card 1 (animate-me class added) -->
+            <div class="skill-card special-glass-card animate-me" data-delay="100">
+                <div class="skill-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend Development</h3>
+                </div>
+                <p>Expertise in building responsive and dynamic user interfaces.</p>
+                <div class="skill-tags">
+                    <span>React</span>
+                    <span>Next.js</span>
+                    <span>JavaScript</span>
+                    <span>TypeScript</span>
+                    <span>Tailwind CSS</span>
+                </div>
+            </div>
+
+            <!-- Skill Card 2 (animate-me class added) -->
+            <div class="skill-card special-glass-card animate-me" data-delay="200">
+                <div class="skill-header">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend & Database</h3>
+                </div>
+                <p>Developing scalable APIs and managing data persistence.</p>
+                <div class="skill-tags">
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>PostgreSQL</span>
+                    <span>MongoDB</span>
+                    <span>Firebase</span>
+                </div>
+            </div>
+
+            <!-- Skill Card 3 (animate-me class added) -->
+            <div class="skill-card special-glass-card animate-me" data-delay="300">
+                <div class="skill-header">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools & DevOps</h3>
+                </div>
+                <p>Proficient in essential development and deployment tools.</p>
+                <div class="skill-tags">
+                    <span>Git</span>
+                    <span>Docker</span>
+                    <span>AWS</span>
+                    <span>Webpack</span>
+                    <span>Figma</span>
+                </div>
+            </div>
+
+            <!-- Skill Card 4 (animate-me class added) -->
+            <div class="skill-card special-glass-card animate-me" data-delay="100">
+                <div class="skill-header">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Science & ML</h3>
+                </div>
+                <p>Working with data pipelines, analysis, and machine learning models.</p>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Scikit-learn</span>
+                    <span>InfluxDB</span>
+                </div>
+            </div>
+
+            <!-- Skill Card 5 (animate-me class added) -->
+            <div class="skill-card special-glass-card animate-me" data-delay="200">
+                <div class="skill-header">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Development</h3>
+                </div>
+                <p>Building cross-platform mobile applications.</p>
+                <div class="skill-tags">
+                    <span>React Native</span>
+                    <span>Flutter</span>
+                    <span>Native iOS/Android</span>
+                </div>
+            </div>
+
+            <!-- Skill Card 6 (animate-me class added) -->
+            <div class="skill-card special-glass-card animate-me" data-delay="300">
+                <div class="skill-header">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Embedded Systems (C/C++)</h3>
+                </div>
+                <p>Experience with low-level programming and hardware interfaces.</p>
+                <div class="skill-tags">
+                    <span>C</span>
+                    <span>C++</span>
+                    <span>RTOS</span>
+                    <span>Microcontrollers</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience">
+    <h2 class="animate-me">Work Experience</h2>
+    <div class="experience-container">
+        
+        <!-- Job 1 -->
+        <div class="experience-item animate-me" data-delay="100">
+            <h3>Web Developer & Ethical Hacking Enthusiast</h3>
+            <div class="role-date">
+                <span class="location">Self-Learning / Personal Projects</span>
+                <p class="duration">2023 - Present</p>
+            </div>
+            <ul class="description-list">
+                <li>Developed 900+ HTML projects and real-world web applications using HTML, CSS, and JavaScript.</li>
+                <li>Built tools like Weather App, Password Generator, Expense Tracker, and Portfolio Websites.</li>
+                <li>Worked on ethical hacking concepts such as vulnerability testing and security analysis (educational purpose).</li>
+                <li>Continuously improving skills in JavaScript and Python for development and automation.</li>
+            </ul>
+        </div>
+
+            <!-- Job 2 (animate-me class added) -->
+            <div class="experience-item animate-me" data-delay="200">
+            <h3>Python Developer (Learning Phase)</h3>
+            <div class="role-date">
+                <span class="location">Self Practice</span>
+                <p class="duration">2024 - Present</p>
+            </div>
+            <ul class="description-list">
+                <li>Built projects like Port Scanner, Virtual Assistant, and API-based tools.</li>
+                <li>Learning automation, backend logic, and cybersecurity scripting.</li>
+                <li>Working with APIs, JSON, and real-time data handling.</li>
+            </ul>
+        </div>
+
+
+            <!-- Job 3 (animate-me class added) -->
+            <div class="experience-item animate-me" data-delay="300">
+            <h3>Creative Developer</h3>
+            <div class="role-date">
+                <span class="location">Personal Innovation</span>
+                <p class="duration">Ongoing</p>
+            </div>
+            <ul class="description-list">
+                <li>Working on unique projects like AI Assistant, Chrome Dino Game Clone, and custom web tools.</li>
+                <li>Exploring UI/UX improvements and interactive web design concepts.</li>
+                <li>Focused on building impactful and practical tech solutions.</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education">
+    <h2 class="animate-me">Education</h2>
+    <div class="education-container">
+        
+        <!-- Degree 1 -->
+        <div class="education-item animate-me" data-delay="100">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <div class="role-date">
+                <span class="location">Planned</span>
+                <p class="duration">Upcoming</p>
+            </div>
+            <ul class="description-list">
+                <li>Planning to pursue BCA with focus on software development and cybersecurity.</li>
+                <li>Continuously building projects and improving real-world coding skills.</li>
+            </ul>
+        </div>
+
+
+            <!-- Degree 2 (animate-me class added) -->
+            <div class="education-item animate-me" data-delay="200">
+            <h3>Class 12th (Uttar Pradesh Board)</h3>
+            <div class="role-date">
+                <span class="location">Completed</span>
+                <p class="duration">2025</p>
+            </div>
+            <ul class="description-list">
+                <li>Completed higher secondary education.</li>
+                <li>Focused on coding, development, and practical technical skills.</li>
+            </ul>
+        </div>
+
+            <!-- Degree 3 (animate-me class added) -->
+            <div class="education-item animate-me" data-delay="300">
+            <h3>Certifications</h3>
+            <div class="role-date">
+                <span class="location">Professional Courses</span>
+                <p class="duration">Completed</p>
+            </div>
+            <ul class="description-list">
+                <li>Certified Ethical Hacker (CEH) - WsCube Tech</li>
+                <li>HTML & Web Development Certification</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio">
+        <h2 class="animate-me">Recent Projects</h2>
+        <div class="portfolio-grid" id="portfolio-grid">
+            <!-- Project 1 (Visible, animate-me class added to card) -->
+            <a href="#" target="_blank" class="portfolio-card-link">
+                <div class="portfolio-card animate-me" data-delay="100">
+                    <img src="https://placehold.co/400x180/8ec5fc/333333?text=E-Commerce+App" alt="E-Commerce Website Platform">
+                    <div class="card-overlay">
+                        <span class="overlay-link-btn">View Live <i class="fas fa-link"></i></span>
+                    </div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured shopping platform built with React and Node.js.</p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Project 2 (Visible, animate-me class added to card) -->
+            <a href="#" target="_blank" class="portfolio-card-link">
+                <div class="portfolio-card animate-me" data-delay="200">
+                    <img src="https://placehold.co/400x180/e0c3fc/333333?text=SaaS+Dashboard" alt="SaaS Analytics Dashboard">
+                    <div class="card-overlay">
+                        <span class="overlay-link-btn">View Live <i class="fas fa-link"></i></span>
+                    </div>
+                    <h3>SaaS Analytics Dashboard</h3>
+                    <p>Interactive data visualization dashboard using D3.js.</p>
+                    <div class="tags">
+                        <span>Vue.js</span>
+                        <span>D3.js</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Project 3 (Visible, animate-me class added to card) -->
+            <a href="#" target="_blank" class="portfolio-card-link">
+                <div class="portfolio-card animate-me" data-delay="300">
+                    <img src="https://placehold.co/400x180/1c152e/ffffff?text=AI+Chatbot" alt="Generative AI Chatbot Project">
+                    <div class="card-overlay">
+                        <span class="overlay-link-btn">View Live <i class="fas fa-link"></i></span>
+                    </div>
+                    <h3>Generative AI Chatbot</h3>
+                    <p>A conversational interface powered by large language models.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>GCP</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Project 4 (Hidden, animation is handled by show more/less JS logic) -->
+            <a href="#" target="_blank" class="portfolio-card-link portfolio-hidden" id="project-4">
+                <div class="portfolio-card">
+                    <img src="https://placehold.co/400x180/4b0082/ffffff?text=Blockchain+Tracker" alt="Blockchain Ledger Tracker">
+                    <div class="card-overlay">
+                        <span class="overlay-link-btn">View Live <i class="fas fa-link"></i></span>
+                    </div>
+                    <h3>Blockchain Ledger Tracker</h3>
+                    <p>Real-time transaction tracker built on a private Ethereum node.</p>
+                    <div class="tags">
+                        <span>Solidity</span>
+                        <span>Web3.js</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Project 5 (Hidden) -->
+            <a href="#" target="_blank" class="portfolio-card-link portfolio-hidden" id="project-5">
+                <div class="portfolio-card">
+                    <img src="https://placehold.co/400x180/3f3c6d/ffffff?text=IoT+Monitoring" alt="Smart Home IoT Monitoring System">
+                    <div class="card-overlay">
+                        <span class="overlay-link-btn">View Live <i class="fas fa-link"></i></span>
+                    </div>
+                    <h3>Smart Home IoT Monitor</h3>
+                    <p>Backend system for ingesting and visualizing sensor data.</p>
+                    <div class="tags">
+                        <span>Go</span>
+                        <span>Kafka</span>
+                        <span>InfluxDB</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Project 6 (Hidden) -->
+            <a href="#" target="_blank" class="portfolio-card-link portfolio-hidden" id="project-6">
+                <div class="portfolio-card">
+                    <img src="https://placehold.co/400x180/1e1b4b/ffffff?text=AR+Demo" alt="Augmented Reality Demo Application">
+                    <div class="card-overlay">
+                        <span class="overlay-link-btn">View Live <i class="fas fa-link"></i></span>
+                    </div>
+                    <h3>Augmented Reality Demo</h3>
+                    <p>Proof of concept for a mobile AR navigation application.</p>
+                    <div class="tags">
+                        <span>Unity</span>
+                        <span>C#</span>
+                        <span>iOS</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Show More/Less Projects Button (animate-me class added) -->
+        <div style="text-align: center; margin-top: 2.5rem;" class="animate-me" data-delay="100">
+            <button id="show-more-projects">Show More Projects</button>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2 class="animate-me">Get In Touch</h2>
+        <!-- animation class added to contact-card -->
+        <div class="contact-card animate-me" data-delay="100">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="39720635-cb0d-42d1-85f8-ffcd0e8af170">
+                <input type="text" name="name" placeholder="Your Name" required="">
+                <input type="email" name="email" placeholder="Your Email" required="">
+                <textarea name="message" rows="5" placeholder="Your Message" required=""></textarea>
+                <button type="submit" class="send-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <!-- animation class added to footer -->
+    <footer class="animate-me" data-delay="100">
+        <div class="social-links">
+            <a href="https://github.com/Binary-Genius" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/_hey.diwakar?igsh=MWF5aHR2dGdlbjR6Yw==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/diwakartiw39742" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p style="margin:0;">
+  © 2026 
+  <a href="https://binary-genius.github.io/www.portfolio-diwakartech.com/" target="_blank" style="color: inherit; text-decoration: none;">
+    Diwakartech
+  </a>. 
+  All rights reserved.
+</p>
+         </footer>
+
+    <script src="js/script.js"></script>
+
+
+
+</body></html>
